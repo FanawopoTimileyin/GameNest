@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+    <header>
+        <nav>
+            <div class="navbar">
+                <h2>Game<strong>Nest</strong></h2>
+                <button class="menu-toggle" id="menu-toggle">
+                    ☰
+                </button>
+                <div class="nav-links" id="nav-links">
+                    <div class="link-box">
+                        <div class="left">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                            </svg>
+                            <h4>Home</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                            </svg>
+                        </div>
+                            <ul>
+                        <li><a href="#featured-game">Featured Games</a></li>
+                        <li><a href="#upcoming-games">New Releases</a></li>
+                        <li><a href="#trending-games">Trending</a></li>
+                        <li><a href="#best-sellers">Best Sellers</a></li>
+                      <li><a href="#coming-soon">Coming Soon</a></li>
+                            </ul>
+                    </div>
+                    <div class="link-box">
+                        <div class="left">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                            </svg>
+                            <h4>Shop</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                            </svg>
+                        </div>
+
+                        <ul>
+                            <li><a href="#">All Games</a></li>
+                            <li><a href="#">PlayStation Games</a></li>
+                            <li><a href="#">Xbox Games</a></li>
+                            <li><a href="#">Nintendo Switch Games</a></li>
+                            <li><a href="#">Digital Games</a></li>
+                            <li><a href="#">Physical Games</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-box">
+                        <div class="left">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="m260-520 220-360 220 360H260ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-20v-320h320v320H120Zm580-60q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm-500-20h160v-160H200v160Zm202-420h156l-78-126-78 126Zm78 0ZM360-340Zm340 80Z" />
+                            </svg>
+                            <h4>Categories</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                            </svg>
+                        </div>
+
+                        <ul>
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">RPG</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Racing</a></li>
+                            <li><a href="#">Fighting</a></li>
+                            <li><a href="#">Horror</a></li>
+                            <li><a href="#">Shooter</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-box">
+                        <div class="left">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M160-280v80h640v-80H160Zm0-440h88q-5-9-6.5-19t-1.5-21q0-50 35-85t85-35q30 0 55.5 15.5T460-826l20 26 20-26q18-24 44-39t56-15q50 0 85 35t35 85q0 11-1.5 21t-6.5 19h88q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720Zm0 320h640v-240H596l84 114-64 46-136-184-136 184-64-46 82-114H160v240Zm228.5-331.5Q400-743 400-760t-11.5-28.5Q377-800 360-800t-28.5 11.5Q320-777 320-760t11.5 28.5Q343-720 360-720t28.5-11.5ZM600-720q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Z" />
+                            </svg>
+                            <h4>Deals</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                            </svg>
+                        </div>
+
+                        <ul>
+                            <li><a href="#">Flash Sale</a></li>
+                            <li><a href="#">Bundle Deals</a></li>
+                            <li><a href="#">Under $20</a></li>
+                            <li><a href="#">Clearance</a></li>
+                            <li><a href="#">Free Games</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-box">
+                        <div class="left">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M200-246q54-53 125.5-83.5T480-360q83 0 154.5 30.5T760-246v-514H200v514Zm379-235q41-41 41-99t-41-99q-41-41-99-41t-99 41q-41 41-41 99t41 99q41 41 99 41t99-41ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm69-80h422q-44-39-99.5-59.5T480-280q-56 0-112.5 20.5T269-200Zm168.5-337.5Q420-555 420-580t17.5-42.5Q455-640 480-640t42.5 17.5Q540-605 540-580t-17.5 42.5Q505-520 480-520t-42.5-17.5ZM480-503Z" />
+                            </svg>
+                            <h4>Account</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                            </svg>
+                        </div>
+
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">My Orders</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="slider">
+
+        <div class="slides">
+            <img src="Devil May Cry 5.jpg" class="slide active">
+            <img src="For Your Honor.jpg" class="slide">
+            <img src="Watch Dogs 2.jpg" class="slide">
+            <img src="GTA V.jpg" class="slide">
+        </div>
+
+        <button id="prev">❮ Previous</button>
+        <button id="next">Next ❯</button>
+
+    </div>
+
+
+    <div class="overlay-box" id="trending-games">
+        <h3>Trending <strong>Now</strong></h3>
+        <a href="#">View All</a>
+    </div>
+    <section class="trending-header">
+        <div class="trending-overlay">
+            <div class="trending-content">
+
+                <div class="trend-image">
+                    <img src="gta 6.jpg" alt="">
+                </div>
+
+                <div class="trend-content">
+                    <h1>GRAND THEFT AUTO VI</h1>
+
+                    <p>
+                        Experience the biggest open-world adventure ever created.
+                        Explore Vice City, complete thrilling missions, build your empire,
+                        and discover endless possibilities in Rockstar's newest masterpiece. <br>
+
+                        <strong>★★★★★</strong> 4.9/5 <br>
+                        <span>Price: </span><strong>$50.00</strong> <br>
+                        Available on PlayStation 5 & Xbox Series X|S
+                    </p>
+
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn">View Details</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <div class="upcoming" id="upcoming-games">
+        <h3>Up<span>coming</span></h3>
+    </div>
+
+    <section class="upcoming-section">
+
+        <button id="up-prev">❮</button>
+
+        <div class="upcoming-ctn">
+
+            <div class="upcoming-slider">
+
+                <div class="ctn-box">
+                    <img src="Ghost Of Yotei.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>Ghost Of Yōtei</h3>
+                    <p class="ppp">Embark on a breathtaking samurai journey where every duel tests your honor, skill,
+                        and courage</p>
+                    <p class="first-p"><span>PRICE: </span>$69.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="BorderLands4.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player, Online Co-op</h5>
+                    <h3>Borderlands 4</h3>
+                    <p class="ppp">Team up with friends, collect powerful loot, and battle dangerous enemies across
+                        vibrant alien worlds</p>
+                    <p class="first-p"><span>PRICE: </span>$67.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="Onimusha Way.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>Onimusha: Way of the Sword</h3>
+                    <p>Master the blade, unleash supernatural powers, and battle fearsome demons in a dark samurai
+                        adventure set in feudal Japan</p>
+                    <p class="first-p"><span>PRICE: </span>$60.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="The Witcher IV.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>The Witcher IV</h3>
+                    <p class="ppp">Embark on a new fantasy adventure filled with magic and monsters</p>
+                    <p class="first-p"><span>PRICE: </span>$70.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="Resident Evil.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player, Survival Horror</h5>
+                    <h3>Resident Evil Requiem</h3>
+                    <p>Enter a terrifying new chapter of survival horror where dark secrets, relentless enemies, and
+                        intense action await around every corner.</p>
+                    <p class="first-p"><span>PRICE: </span>$67.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="Wolverine.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>Marvel's Wolverine</h3>
+                    <p class="ppp">Fight with Wolverine's iconic claws in a cinematic adventure.</p>
+                    <p class="first-p"><span>PRICE: </span>$63.99</p>
+                    <a href="#" class="btn">View Details</a>
+                    <a href="#" class="btn">Pre-Order</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button id="up-next">❯</button>
+
+    </section>
+    <section class="game-trailer">
+
+        <div class="heading">
+            <h2>Official <span>Gameplay </span>Trailer</h2>
+            <p>Watch the latest gameplay before purchasing.</p>
+        </div>
+
+        <div class="video-box">
+            <video controls preload="metadata" poster="Onimusha Way.jpg">
+                <source src="onimusha.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </section>
+    <section class="Best-Seller" id="best-sellers">
+        <h3>Best<span> Seller</span></h3>
+        <div class="seller-ctn">
+            <div class="seller">
+
+                <div class="ctn-box">
+                    <img src="GTA V.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>Grand Theft Auto V</h3>
+                    <p class="ppp">Experience Los Santos through thrilling missions and endless online adventures</p>
+                    <p class="first-p"><span>PRICE: </span>$29.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class="ctn-box">
+                    <img src="Fc.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player, Multi-Player</h5>
+                    <h3>EA Sports FC 26</h3>
+                    <p class="ppp">Build your dream team and compete with players around the world</p>
+                    <p class="first-p"><span>PRICE: </span>$69.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="blackops 7.jpeg" alt="">
+                    <h5><span>Mode: </span>First-Person-Shooter, Multi-Player</h5>
+                    <h3>Call of Duty: Black Ops 7</h3>
+                    <p>Fight in fast-paced battles with cutting-edge weapons and game modes</p>
+                    <p class="first-p"><span>PRICE: </span>$69.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="imgi_260_Minecraft_Fall_Drop_Campaign_Key_Art_DotNet_Blog_Editorial_1280x768.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player, Multi-Player</h5>
+                    <h3>MineCraft</h3>
+                    <p class="ppp">Create, explore, and survive in a limitless block-based world</p>
+                    <p class="first-p"><span>PRICE: </span>$29.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="forza.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player, Multi-Player</h5>
+                    <h3>Forza Horizon 5</h3>
+                    <p>Race hundreds of cars across breathtaking open-world landscapes</p>
+                    <p class="first-p"><span>PRICE: </span>$37.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="ctn-box">
+                    <img src="imgi_225_elden-ring-button-03-1623460560664.jpg" alt="">
+                    <h5><span>Mode: </span>Single-Player</h5>
+                    <h3>Elden Ring</h3>
+                    <p class="ppp">Face powerful enemies and uncover the mysteries of the Lands Between</p>
+                    <p class="first-p"><span>PRICE: </span>$59.99</p>
+                    <div class="review">
+                        <p class="first-p"><span></span>⭐ 4.9/5</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#1f1f1f">
+                            <path
+                                d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured-game" id="featured-game">
+
+        <video autoplay muted loop playsinline class="featured-video">
+            <source src="wolverine.mp4" type="video/mp4">
+        </video>
+
+        <div class="featured-overlay-bg"></div>
+
+        <div class="featured-content">
+
+            <span class="featured-tag">FEATURED GAME</span>
+
+            <h1>Marvel's Wolverine</h1>
+
+            <p>
+                Step into the claws of Logan in an intense action-adventure
+                exclusively for PlayStation 5. Prepare for an unforgettable
+                journey when the game launches.
+            </p>
+
+            <div class="game-info">
+
+                <div>
+                    <span>Mode</span>
+                    <h4>Single Player</h4>
+                </div>
+
+                <div>
+                    <span>Genre</span>
+                    <h4>Action Adventure</h4>
+                </div>
+
+                <div>
+                    <span>Platform</span>
+                    <h4>PS5</h4>
+                </div>
+
+            </div>
+
+            <h3 class="countdown-title">
+                RELEASES IN
+            </h3>
+
+            <div class="countdown">
+
+                <div class="time-box">
+                    <h2 id="days">00</h2>
+                    <p>Days</p>
+                </div>
+
+                <div class="time-box">
+                    <h2 id="hours">00</h2>
+                    <p>Hours</p>
+                </div>
+
+                <div class="time-box">
+                    <h2 id="minutes">00</h2>
+                    <p>Minutes</p>
+                </div>
+
+                <div class="time-box">
+                    <h2 id="seconds">00</h2>
+                    <p>Seconds</p>
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <a href="#" class="btn">Pre-Order</a>
+
+                <a href="#" class="btn2">Watch Trailer</a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== LATEST GAMING NEWS ====================-->
+
+    <section class="gaming-news">
+
+        <div class="news-heading">
+
+            <span>Gaming News</span>
+
+            <h2>Latest Gaming News</h2>
+
+            <p>
+                Stay informed with the biggest announcements, updates,
+                trailers and release information from the gaming world.
+            </p>
+
+        </div>
+
+        <div class="news-container">
+
+            <!-- Featured News -->
+
+            <div class="featured-news">
+
+                <img src="Wolverine.jpg" alt="Marvel's Wolverine">
+
+                <div class="featured-overlay">
+
+                    <span class="news-category">FEATURED</span>
+
+                    <h2>
+                        Marvel's Wolverine Officially Launches
+                        This September
+                    </h2>
+
+                    <p>
+                        Insomniac Games confirms the highly anticipated
+                        release date alongside an action-packed gameplay trailer.
+                    </p>
+
+                    <a href="#">
+                        Read Full Story
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- News Grid -->
+
+            <div class="news-grid">
+
+                <div class="news-card">
+
+                    <img src="Resident Evil.jpg">
+
+                    <div class="news-content">
+
+                        <span>Resident Evil</span>
+
+                        <h3>
+                            Resident Evil Requiem
+                            Reveals New Gameplay
+                        </h3>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="news-card">
+
+                    <img src="Onimusha Way.jpg">
+
+                    <div class="news-content">
+
+                        <span>Capcom</span>
+
+                        <h3>
+                            Onimusha: Way of the Sword
+                            Gets New Trailer
+                        </h3>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="news-card">
+
+                    <img src="Ghost Of Yotei.jpg">
+
+                    <div class="news-content">
+
+                        <span>PlayStation</span>
+
+                        <h3>
+                            Ghost of Yōtei Shows
+                            Stunning Open World
+                        </h3>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="news-card">
+
+                    <img src="gta 6.jpg">
+
+                    <div class="news-content">
+
+                        <span>Rockstar Games</span>
+
+                        <h3>
+                            GTA VI Continues Breaking
+                            Internet Records
+                        </h3>
+
+                        <a href="#">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== DEALS OF THE WEEK ====================-->
+
+    <section class="deals">
+
+        <div class="deals-heading">
+
+            <span>LIMITED TIME OFFERS</span>
+
+            <h2>Deals Of The Week</h2>
+
+            <p>
+                Grab the hottest PlayStation games at unbeatable prices before the offers expire.
+            </p>
+
+        </div>
+
+        <div class="deals-container">
+
+            <!-- Featured Deal -->
+
+            <div class="deal-feature">
+
+                <img src="Wolverine.jpg" alt="">
+
+                <div class="deal-overlay">
+
+                    <span class="deal-badge">70% OFF</span>
+
+                    <h2>Marvel's Wolverine</h2>
+
+                    <p>
+                        Experience Logan's next adventure with an exclusive limited-time discount.
+                    </p>
+
+                    <div class="deal-price">
+
+                        <del>$89.99</del>
+
+                        <h3>$26.99</h3>
+
+                    </div>
+
+                    <a href="#">Buy Now</a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="deal-grid">
+
+                <div class="deal-card">
+
+                    <span class="discount">-40%</span>
+
+                    <img src="Ghost Of Yotei.jpg" alt="">
+
+                    <div class="deal-content">
+
+                        <h3>Ghost of Yōtei</h3>
+
+                        <div class="rating">
+
+                            ⭐ 4.9
+
+                        </div>
+
+                        <div class="price">
+
+                            <del>$69.99</del>
+
+                            <span>$41.99</span>
+
+                        </div>
+
+                        <button>Buy Now</button>
+
+                    </div>
+
+                </div>
+
+                <div class="deal-card">
+
+                    <span class="discount">-55%</span>
+
+                    <img src="Onimusha Way.jpg" alt="">
+
+                    <div class="deal-content">
+
+                        <h3>Onimusha</h3>
+
+                        <div class="rating">
+
+                            ⭐ 4.8
+
+                        </div>
+
+                        <div class="price">
+
+                            <del>$79.99</del>
+
+                            <span>$35.99</span>
+
+                        </div>
+
+                        <button>Buy Now</button>
+
+                    </div>
+
+                </div>
+
+                <div class="deal-card">
+
+                    <span class="discount">-60%</span>
+
+                    <img src="Resident Evil.jpg" alt="">
+
+                    <div class="deal-content">
+
+                        <h3>Resident Evil Requiem</h3>
+
+                        <div class="rating">
+
+                            ⭐ 4.9
+
+                        </div>
+
+                        <div class="price">
+
+                            <del>$89.99</del>
+
+                            <span>$35.99</span>
+
+                        </div>
+
+                        <button>Buy Now</button>
+
+                    </div>
+
+                </div>
+
+                <div class="deal-card">
+
+                    <span class="discount">-35%</span>
+
+                    <img src="gta 6.jpg" alt="">
+
+                    <div class="deal-content">
+
+                        <h3>GTA VI</h3>
+
+                        <div class="rating">
+
+                            ⭐ 5.0
+
+                        </div>
+
+                        <div class="price">
+
+                            <del>$99.99</del>
+
+                            <span>$64.99</span>
+
+                        </div>
+
+                        <button>Buy Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== JOIN COMMUNITY ====================-->
+
+    <section class="community">
+
+        <div class="community-bg"></div>
+
+        <div class="community-content">
+
+            <span>JOIN THE COMMUNITY</span>
+
+            <h2>
+                Level Up Your Gaming Experience
+            </h2>
+
+            <p>
+                Become part of our growing gaming community and receive
+                exclusive news, release alerts, special discounts,
+                giveaways and early access announcements.
+            </p>
+
+            <form class="community-form">
+
+                <input type="email" placeholder="Enter your email address" required>
+
+                <button type="submit">
+                    Join Now
+                </button>
+
+            </form>
+
+            <div class="community-buttons">
+
+                <a href="#">
+                    Join Discord
+                </a>
+
+                <a href="#">
+                    Learn More
+                </a>
+
+            </div>
+
+            <div class="community-stats">
+
+                <div class="stat-box">
+
+                    <h3>350K+</h3>
+
+                    <span>Community Members</span>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3>12K+</h3>
+
+                    <span>Daily Players</span>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3>850+</h3>
+
+                    <span>Featured Games</span>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3>24/7</h3>
+
+                    <span>Support</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--==================== PLAYSTATION EXCLUSIVES ====================-->
+
+    <section class="ps-exclusive">
+
+        <div class="ps-heading">
+
+            <span>ONLY ON PLAYSTATION</span>
+
+            <h2>PlayStation Exclusives</h2>
+
+            <p>
+                Discover legendary adventures crafted exclusively for
+                PlayStation 4 and PlayStation 5 players.
+            </p>
+
+        </div>
+
+        <div class="ps-grid">
+
+            <div class="ps-card">
+
+                <img src="Ghost Of Yotei.jpg" alt="Ghost of Yōtei">
+
+                <div class="ps-overlay"></div>
+
+                <div class="ps-content">
+
+                    <span class="ps-badge">PS5 Exclusive</span>
+
+                    <h3>Ghost of Yōtei</h3>
+
+                    <p>
+                        Journey across breathtaking landscapes in an epic
+                        samurai adventure.
+                    </p>
+
+                    <a href="#">Explore →</a>
+
+                </div>
+
+            </div>
+
+            <div class="ps-card">
+
+                <img src="spiderman2.jpeg" alt="Spider-Man 2">
+
+                <div class="ps-overlay"></div>
+
+                <div class="ps-content">
+
+                    <span class="ps-badge">PS5 Exclusive</span>
+
+                    <h3>Spider-Man 2</h3>
+
+                    <p>
+                        Swing through New York and face powerful new enemies.
+                    </p>
+
+                    <a href="#">Explore →</a>
+
+                </div>
+
+            </div>
+
+            <div class="ps-card">
+
+                <img src="ragnarok.jpg" alt="God of War Ragnarök">
+
+                <div class="ps-overlay"></div>
+
+                <div class="ps-content">
+
+                    <span class="ps-badge">PS4 • PS5</span>
+
+                    <h3>God of War Ragnarök</h3>
+
+                    <p>
+                        Fight beside Atreus as Ragnarök approaches.
+                    </p>
+
+                    <a href="#">Explore →</a>
+
+                </div>
+
+            </div>
+
+            <div class="ps-card">
+
+                <img src="last of us.jpg" alt="The Last of Us Part II">
+
+                <div class="ps-overlay"></div>
+
+                <div class="ps-content">
+
+                    <span class="ps-badge">PS4 • PS5</span>
+
+                    <h3>The Last of Us Part II</h3>
+
+                    <p>
+                        Experience one of PlayStation's most emotional stories.
+                    </p>
+
+                    <a href="#">Explore →</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Logo & About -->
+            <div class="footer-card">
+                <h2 class="logo">Game<span>Nest</span></h2>
+
+                <p class="about">
+                    GameNest is your ultimate destination
+                    for discovering the best PlayStation 4 and PlayStation 5 games.
+                    Explore blockbuster exclusives, upcoming releases, gaming news,
+                    exclusive deals, and unforgettable adventures—all in one place.
+                </p>
+
+                <div class="payment-icons">
+                    <img src="visa.png" alt="Visa">
+                    <img src="Mastercard.png" alt="MasterCard">
+                    <img src="Paypal.png" alt="PayPal">
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-card">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Upcoming Games</a></li>
+                    <li><a href="#">Trailers</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-card">
+                <h3>Contact Us</h3>
+
+                <p>Email:<br> support@gamenest.com</p>
+
+                <p>Phone:<br> +1234567890</p>
+
+                <p>Address:<br> Los Angeles, California</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-card">
+                <h3>Stay Updated</h3>
+
+                <p>
+                    Subscribe to receive updates about new releases,
+                    discounts and gaming news.
+                </p>
+
+                <form class="newsletter">
+
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+
+                </form>
+
+                <div class="social-icons">
+
+                    <a href="#"><img src="facebook.png" alt=""></a>
+
+                    <a href="#"><img src="instagram.jpg" alt=""></a>
+
+                    <a href="#"><img src="x.jpg" alt=""></a>
+
+                    <a href="#"><img src="youtube.jpeg" alt=""></a>
+
+                    <a href="#"><img src="discord.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 <span>GameNest</span>. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(90deg,
+            rgba(0, 70, 190, 1),
+            rgba(0, 119, 255, 1),
+            rgba(0, 180, 255, 0.95));
+           
+}
+nav{
+    .shop-nav{
+        padding: 40px 10%;
+        display: flex;
+        justify-content: space-between;
+        /* position: sticky; */
+         height: calc(100vh - 85);
+
+        h2{
+            font-size: 35px;
+            color: #fff;
+            font-weight: bold;
+        }
+        strong{
+            color: rgb(255, 0, 230);
+            font-size: 35px;
+            font-weight: bold;
+        }
+    }
+    .menus{
+        display: flex;
+        gap: 40px;
+        padding: 10px;
+        color: #fff;
+        cursor: pointer;
+
+    }
+        .all:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+              .play:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+              .x:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+              .nin:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+              .dig:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+              .phy:hover{
+             border-bottom: 2px solid  rgb(255, 0, 230);
+        transition: .3s;
+        }
+
+}
+.hero{
+    height: 100vh;
+}
